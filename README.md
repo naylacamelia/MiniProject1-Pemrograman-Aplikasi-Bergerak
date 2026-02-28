@@ -62,7 +62,7 @@ Appbar merupakan header aplikasi. Dalam project ini, appbar menjadi tempat untuk
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/bb102e8d-6965-493a-b0ee-24492543f7bc" />
 
 #### 4. TextField
-TextField merupakan widget berupa form input yang memungkinkan pengguna menginputkan teks pada aplikasi. Dalam project ini, textfield digunakan pada "posting_page" untuk melakukan input judul, deskripsi, dan konten artikel serta menginputkan nama penulis.
+TextField merupakan widget berupa form input yang memungkinkan pengguna menginputkan teks pada aplikasi. Dalam project ini, textfield digunakan pada **posting_page** untuk melakukan input judul, deskripsi, dan konten artikel serta menginputkan nama penulis.
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/eeba2d71-91e7-4311-9eb1-6ebd838cc6f5" />
 
@@ -88,7 +88,7 @@ Widget ini digunakan untuk menampilkan daftar artikel dalam bentuk carad berdasa
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/0abd626b-2083-4d40-bd79-92d87ca4943f" />
 
 #### 8. ListTile
-Widget ini berguna untuk meletakkan elemen dalam satu baris tunggal yang dilengkapi dengan traliing. Pada Home_page, listile digunakan untuk menyusun konten card yang meliputi ikon profil, nama penulis, judul dan konten artikel.
+Widget ini berguna untuk meletakkan elemen dalam satu baris tunggal yang dilengkapi dengan traliing. Pada **home_page**, listile digunakan untuk menyusun konten card yang meliputi ikon profil, nama penulis, judul dan konten artikel.
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/402352ee-30e3-426b-98fd-a11fb923aa5e" />
 
@@ -97,21 +97,60 @@ ElevatedButton merupakan tombol yang bisa ditekan oleh pengguna untuk menjalanka
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/d7c9ee88-9680-42be-8965-e5a07d26581e" />
 
-#### 10. Container
-Container berguna untuk membungkus widget sehingga dapat diatur posisi dan jaraknya. Salah satu penrapannya, container digunakan untuk mengatur jarak tombol pada appbar.
 
-<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/3bdd0a87-85f9-4ec3-b1ea-79b3f796de19" />
-
-#### 11. AlertDialog
+#### 10. AlertDialog
 Widget AlertDialog digunakan untuk menampilkan pop up/dialog peringatan sebagai bentuk konfirmasi kpd pengguna. contohnya digunakan ketika pengguna hendak keluar dari laman ketika sedang menulis artikel. Hal ini bertujuan untuk mencegah terhapusnya draft artikel secara tanpa sengaja.
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/37f2e4cf-69c3-4901-8bf9-dd081f5995a3" />
 
-#### 12. TextButton
+#### 11. TextButton
 Textbutton digunakan sebagai tombol aksi di dalam dialog.
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/d9b554f5-5a88-4fcd-9139-91a1f48bded7" />
 
+#### 12. Container
+Container berguna untuk membungkus widget sehingga dapat diatur posisi dan jaraknya. Salah satu penrapannya, container digunakan untuk mengatur jarak tombol pada appbar.
+
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/3bdd0a87-85f9-4ec3-b1ea-79b3f796de19" />
+
+#### 13. Column
+
+Widget yang menyusun child nya secara vertikal. Salah satu contohnya adalah digunakan untuk menyusun elemen judul, nama pengguna dan konten secara vertikal pada sebuah **Card**.
+
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/c383ec2f-db3b-4223-8665-0f76b2c94fae" />
+
+#### 14. Row
+Widget yang menyusun child nya secara horizontal. Contohnya digunakan untuk menyusun circle profil dan author artikel menjadi satu baris.
+
+<img width="300" height="250" alt="image" src="https://github.com/user-attachments/assets/772d3956-5c99-43fb-87ec-e9478d13da6c" />
+
+#### 15. SizedBox
+SizedBox digunakan untuk memberikan jarak antar widget.
+
+<img width="400" height="50" alt="image" src="https://github.com/user-attachments/assets/803ba150-2986-43e1-a1e2-a603524a9fbc" />
+
+#### 16. SafeArea, Center, ConstrainedBox
+- Center berguna untuk memusatkan seluruh isi body menjadi rata tengah.
+- SafeArea berguna untuk memastikan bahwa konten pada aplikasi tidak tertumpuk atau tertutup oleh elemen sistem dengan cara menambah padding otomatis.
+- ConstrainedBox berguna untuk membatasi ukuran childnya. Dalam project ini, diterapkan untuk mengatur lebar maksimal konten.
+- 
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/1c0b7dcf-f63f-4383-aeb3-b19ad8f077fc" />
+
+#### 17. SingleChildScrollView, Align
+- SingleChildScrollView berfungsi untuk membuat konten di dalamnya bisa di scroll. Widget ini diterapkan pada **posting_page** dan **detail_page**, sehingga memungkinkan pengguna untuk menjangkau konten yang panjang.
+- Align berfungsi untuk mengatur posisi child agar menempel ke tengah atas layar aplikasi.
+
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/1b45eed7-c277-4186-8155-56f373c1fe32" />
+
+
+#### 18. CircleAvatar, Icon
+-  CircleAvatar digunakan untum menampilkan icon dalam bentuk lingkaran. Dalam hal ini, digunakan untuk profil penulis artikel.
+-  Icon berguna untuk menampilkan ikon dari koleksi Material Icons. contohnya ikon person.
+
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/5b793ad6-b496-427c-a7c4-9beafaabbe39" />
+
+
+<img width="200" height="40" alt="image" src="https://github.com/user-attachments/assets/08e3e7f0-f86d-4334-821c-4f6f775d3f1a" />
 
 ---
 
