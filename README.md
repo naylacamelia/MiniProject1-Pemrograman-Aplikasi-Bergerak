@@ -1,3 +1,9 @@
+**Nama**: Nayla Camelia Indraswari
+
+**NIM**: 2409116009
+
+**Kelas**: A
+
 ## 📑 Aplikasi Personal Blog
 
 Aplikasi ini merupakan aplikasi mobile sederhana berbasis Flutter yang berfungsi sebagai platform blogging pribadi. Pengguna dapat menulis artikel dengan judul, deskripsi, nama penulis, dan konten, lalu mempublikasikannya ke halaman utama. Aplikasi ini juga memungkinkan pengguna untuk memodifikasi artikel, mulai dari mengedit hingga menghapus.
