@@ -23,6 +23,7 @@ Aplikasi ini merupakan aplikasi mobile sederhana berbasis Flutter yang berfungsi
 ---
 
 
+
 ## 💻 Struktur Halaman
 
 Aplikasi ini terdiri dari **3 halaman** utama pada folder pages, dengan rincian sebagai berikut:
@@ -42,69 +43,71 @@ pages
 main.dart               (awal mula berjalannya program dan konfigurasi tema aplikasi)
 ```
 
+---
+
 ## 💻 Widget yang Digunakan
-### 1. MaterialApp
+#### 1. MaterialApp
 Widget yang mengatur tampilan umum aplikasi, mulai dari tema, teks hingga mengatur style untuk button pada aplikasi.
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/1b0efdd0-3d93-429b-95bd-3db1b88e7a02" />
 
-### 2. Scaffold
+#### 2. Scaffold
 Widget yang menjadi kerangka dasar, sebagaimana kontainer utama aplikasi, dengan menyediakan elemen seperti AppBar, body dan FloatingActionButton.
 
 <img width="400" height="200" alt="Screenshot 2026-02-28 201514" src="https://github.com/user-attachments/assets/d091daf4-ba87-4339-ab51-7a580d347642" />
 
-### 3. AppBar
+#### 3. AppBar
 Appbar merupakan header aplikasi. Dalam project ini, appbar menjadi tempat untuk meletakkan tombol "publish" dan "update" artikel serta menyediakan tombol kembali di setiap halaman.
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/bb102e8d-6965-493a-b0ee-24492543f7bc" />
 
-### 4. TextField
+#### 4. TextField
 TextField merupakan widget berupa form input yang memungkinkan pengguna menginputkan teks pada aplikasi. Dalam project ini, textfield digunakan pada "posting_page" untuk melakukan input judul, deskripsi, dan konten artikel serta menginputkan nama penulis.
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/eeba2d71-91e7-4311-9eb1-6ebd838cc6f5" />
 
-### 5. Padding
+#### 5. Padding
 padding berfungsi untuk memberikan jarak/ruang dalam suatu widget. Salah satu penerapannya, padding digunakan untuk memberi space konten di dalam sebuah **Card**.
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/71fb47a1-5598-47ff-b966-565f32a8d3c5" />
 
-### 6. Card
+#### 6. Card
 Card digunakan untuk menampilkan setiap artikel dalam bentuk kotak menyerupai kontainer secara terstruktur, rapi dan terpisah.
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/cba4745f-06c4-46e2-9b32-c8d6420ce02b" />
 
-### 7. ListView
+#### 7. ListView
 ListView digunakan untuk menampilkan kumpulan data (artikel) dalam bentuk daftar yang bisa discroll. Dalam project ini, listview digunakan untuk menampilkan card artikel secara berurutan.
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/8fff736d-c35a-4884-9bb1-023bba281f7b" />
 
 
-### 8. ListView.Builder
+#### 8. ListView.Builder
 Widget ini digunakan untuk menampilkan daftar artikel dalam bentuk carad berdasarkan dara yang terdapat dalam list articles.
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/0abd626b-2083-4d40-bd79-92d87ca4943f" />
 
-### 8. ListTile
+#### 8. ListTile
 Widget ini berguna untuk meletakkan elemen dalam satu baris tunggal yang dilengkapi dengan traliing. Pada Home_page, listile digunakan untuk menyusun konten card yang meliputi ikon profil, nama penulis, judul dan konten artikel.
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/402352ee-30e3-426b-98fd-a11fb923aa5e" />
 
-### 9. ElevatedButton
+#### 9. ElevatedButton
 ElevatedButton merupakan tombol yang bisa ditekan oleh pengguna untuk menjalankan suatu aksi. Pada project ini, elevatedbutton digunakan sebagai tombol publish dan update artikel.
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/d7c9ee88-9680-42be-8965-e5a07d26581e" />
 
-### 10. Container
+#### 10. Container
 Container berguna untuk membungkus widget sehingga dapat diatur posisi dan jaraknya. Salah satu penrapannya, container digunakan untuk mengatur jarak tombol pada appbar.
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/3bdd0a87-85f9-4ec3-b1ea-79b3f796de19" />
 
-### 11. AlertDialog
+#### 11. AlertDialog
 Widget AlertDialog digunakan untuk menampilkan pop up/dialog peringatan sebagai bentuk konfirmasi kpd pengguna. contohnya digunakan ketika pengguna hendak keluar dari laman ketika sedang menulis artikel. Hal ini bertujuan untuk mencegah terhapusnya draft artikel secara tanpa sengaja.
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/37f2e4cf-69c3-4901-8bf9-dd081f5995a3" />
 
-### 12. TextButton
+#### 12. TextButton
 Textbutton digunakan sebagai tombol aksi di dalam dialog.
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/d9b554f5-5a88-4fcd-9139-91a1f48bded7" />
@@ -122,7 +125,7 @@ Halaman utama aplikasi yang menampilkan seluruh daftar artikel.
 
 ---
 
-### More Option Icon
+#### More Option Icon
 
 Setiap artikel memiliki ikon titik tiga di pojok kanan yang memberikan pilihan untuk mengedit atau menghapus artikel.
 
