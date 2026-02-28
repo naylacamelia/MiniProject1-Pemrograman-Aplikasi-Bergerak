@@ -155,6 +155,22 @@ Output:
 
 ---
 
+### Navigasi Halaman dengan Navigator
+
+**🔖 Navigator Push, MaterialPageRoute**
+- Navigator Push berguna untuk berpindah ke halaman baru dengan halaman sebelumnya tetap ada di stack, sehingga pengguna bisa kembali.
+- MaterialPageRoute berguna untuk navigasi ke halaman yang dituju.
+  
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/017eb833-7b42-44d5-93b8-f27c5bfb7e4f" />
+
+**🔖 Navigator Pop**
+
+Berguna untuk kembali ke halaman sebelumnya. Contohnya digunakan dalam dialog alert ketika pengguna memilih untuk kembali ke halaman sebelumnya.
+
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/0bd89036-ffbc-42a5-aa1d-6f76beb4223b" />
+
+---
+
 ## 🔍 Tampilan Aplikasi
 
 ### Home Page
