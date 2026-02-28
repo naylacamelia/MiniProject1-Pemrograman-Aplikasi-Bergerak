@@ -30,7 +30,7 @@ Aplikasi ini terdiri dari **3 halaman** utama pada folder pages, dengan rincian 
 
 ```
 data
-└── article_data.dart   (berisi data artikel yang diakses seluruh halaman)
+└── article_data.dart   
 
 models
 └── article.dart        
@@ -40,7 +40,7 @@ pages
 ├── detail_page.dart    (StatelessWidget)
 └── posting_page.dart   (StatefulWidget)
 
-main.dart               (awal mula berjalannya program dan konfigurasi tema aplikasi)
+main.dart             
 ```
 
 
