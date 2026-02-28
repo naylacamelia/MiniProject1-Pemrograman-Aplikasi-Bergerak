@@ -140,16 +140,19 @@ Ketika user memilih **Delete**, akan muncul pop-up konfirmasi sebelum artikel be
 
 <img width="300" height="700" alt="Screenshot_1772245902" src="https://github.com/user-attachments/assets/b85afb17-adfe-40c1-8f1b-0ed1dee8157b" />
 
+<img width="300" height="700" alt="Screenshot_1772245905" src="https://github.com/user-attachments/assets/e9630ee0-76d0-4a57-8f11-f225595302d9" />
+
+
 
 ---
 
 ### Fitur Edit
 
-Ketika user memilih **Edit**, aplikasi akan berpindah ke halaman *Posting Page* untuk menyunting artikel. Perubahan dapat disimpan dengan menekan tombol **Update** di kanan atas.
+Ketika user memilih **Edit**, aplikasi akan berpindah ke halaman **Posting Page** untuk mengedit artikel. Perubahan dapat disimpan dengan menekan tombol **Update** di kanan atas.
 
 <img width="300" height="700" alt="Screenshot_1772245884" src="https://github.com/user-attachments/assets/9c2c44e3-eb0f-4b6c-9179-ced989425f2b" />
 
-Saat dalam mode edit, jika user menekan **Back** setelah melakukan perubahan, akan muncul dialog konfirmasi bahwa perubahan yang telah dilakukan tidak akan tersimpan.
+Dalam mode edit, jika user menekan **Back** setelah melakukan perubahan, akan muncul dialog konfirmasi bahwa perubahan yang telah dilakukan tidak akan tersimpan. hal ini ditujukan untuk mencegah perubahan yang tidak tersimpan.
 
 <img width="300" height="700" alt="Screenshot_1772246025" src="https://github.com/user-attachments/assets/6f22be4e-9cf6-4d14-9307-45988de3ba10" />
 
@@ -157,7 +160,7 @@ Saat dalam mode edit, jika user menekan **Back** setelah melakukan perubahan, ak
 
 ### Posting Page
 
-Halaman untuk menulis dan mempublikasikan artikel baru. Terdapat 3 field wajib diisi (judul, nama author, konten) dan 1 field opsional (deskripsi).
+Halaman untuk menulis dan mempublikasikan artikel baru. Terdapat 3 field wajib diisi (judul, nama author, konten) dan 1 field opsional (deskripsi judul).
 
 <img width="300" height="700" alt="Screenshot_1772245910" src="https://github.com/user-attachments/assets/7d27e5ce-0490-4fc6-9db0-790fc8853c4d" />
 
@@ -166,7 +169,7 @@ Halaman untuk menulis dan mempublikasikan artikel baru. Terdapat 3 field wajib d
 <img width="300" height="700" alt="Screenshot_1772246040" src="https://github.com/user-attachments/assets/e1dfbaba-6cf5-4f5d-b31b-62b487489c0b" />
 
 
-Jika field wajib tidak diisi, akan muncul pesan pemberitahuan singkat di bagian bawah layar.
+Jika field wajib tidak diisi, akan muncul pesan pemberitahuan bahwa field wajib diisi.
 
 <img width="300" height="700" alt="Screenshot_1772246005" src="https://github.com/user-attachments/assets/d3c8d07e-0335-49e8-87a9-8e4b156eafe2" />
 
