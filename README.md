@@ -29,18 +29,17 @@ Aplikasi ini terdiri dari **3 halaman** utama pada folder pages, dengan rincian 
 
 ```
 data
-└── article_data.dart
+└── article_data.dart   (berisi data artikel yang diakses seluruh halaman)
 
 models
-└── article.dart
+└── article.dart        (blueprint struktur data setiap artikel)
 
 pages
-├── home_page.dart         
-├── detail_page.dart       
-└── posting_page.dart
+├── home_page.dart      (beranda aplikasi yang menampilkan daftar artikel)
+├── detail_page.dart    (halaman untuk membaca isi artikel)
+└── posting_page.dart   (editor untuk menulis dan mengunggah artikel)
 
-main.dart     
-```
+main.dart               (awal mula berjalannya program dan konfigurasi tema aplikasi)
 
 ---
 
