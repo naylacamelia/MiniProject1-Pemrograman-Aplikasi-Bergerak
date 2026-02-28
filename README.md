@@ -149,6 +149,7 @@ SizedBox digunakan untuk memberikan jarak antar widget.
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/5b793ad6-b496-427c-a7c4-9beafaabbe39" />
 
+Output:
 
 <img width="200" height="40" alt="image" src="https://github.com/user-attachments/assets/08e3e7f0-f86d-4334-821c-4f6f775d3f1a" />
 
