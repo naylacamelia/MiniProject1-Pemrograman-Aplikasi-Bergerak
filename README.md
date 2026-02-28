@@ -33,15 +33,23 @@ data
 └── article_data.dart   (berisi data artikel yang diakses seluruh halaman)
 
 models
-└── article.dart        (blueprint struktur data setiap artikel)
+└── article.dart        
 
 pages
-├── home_page.dart      (beranda aplikasi yang menampilkan daftar artikel)
-├── detail_page.dart    (halaman untuk membaca isi artikel)
-└── posting_page.dart   (editor untuk menulis dan mengunggah artikel)
+├── home_page.dart      (StatefulWidget)
+├── detail_page.dart    (StatelessWidget)
+└── posting_page.dart   (StatefulWidget)
 
 main.dart               (awal mula berjalannya program dan konfigurasi tema aplikasi)
 ```
+
+
+- **main.dart**: awal mula berjalannya program dan konfigurasi tema aplikasi
+- **models/article.dart**: Blueprint struktur data artikel yang digunakan di seluruh aplikasi.
+- **data/article_data.dart**: Tempat penyimpanan data artikel yang diakses dan dimodifikasi oleh semua halaman.
+- **pages/home_page.dart**: Beranda aplikasi. Menampilkan daftar artikel, dan menjadi pusat navigasi untuk membaca, membuat, mengedit, serta menghapus artikel.
+- **pages/detail_page.dart** : Halaman untuk membaca isi artikel.
+- **pages/posting_page.dart** : Halaman untuk mengunggah artikel. Disinilah pengguna menginputkan isi artikel, mulai dari judul, deskripsi, isi konten hingga nama penulis.
 
 ---
 
