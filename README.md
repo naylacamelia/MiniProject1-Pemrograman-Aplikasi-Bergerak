@@ -40,8 +40,7 @@ pages
 └── posting_page.dart   (editor untuk menulis dan mengunggah artikel)
 
 main.dart               (awal mula berjalannya program dan konfigurasi tema aplikasi)
-
----
+```
 
 ## 💻 Widget yang Digunakan
 ### 1. MaterialApp
